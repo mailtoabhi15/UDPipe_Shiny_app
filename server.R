@@ -35,6 +35,10 @@ shinyServer(function(input, output) {
     })
     
     output$annot_data_tabel <- renderDataTable({
+        if (is.null(input$rawtxtfile) | is.null(input$udpipemodel)) {
+            # User has not uploaded a file yet
+            return(NULL)
+        }
         x<-select(annonated_doc(),-'sentence')
         top100_annot_doc <- head(x, 100)
         return(top100_annot_doc)
