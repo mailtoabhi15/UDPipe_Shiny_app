@@ -3,7 +3,7 @@
 #   Seshadri Deb Roy (PG ID:11915032)
 #   Hanumesh Vittal setty Nagur (PG ID :11915088)
 #-------------------
-#Citation/Refrence: The Code is referred/used from Prof. Sidhir Voleti's TA Class's, on Shiny & UDpipe Explorationexample (session 4 &5)
+#Citation/Refrence: The Code is referred/used from Prof. Sudhir Voleti's TA Class's, on Shiny & UDpipe Explorationexample (session 4 &5)
 #-----------------
 ####*********************************************####
 
