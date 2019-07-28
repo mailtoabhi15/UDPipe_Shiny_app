@@ -52,8 +52,8 @@ shinyUI(fluidPage(
             tabsetPanel(type = "tabs",
                         
                         tabPanel("Overview",h4(p("Synopisis")),
-                                 tags$li("The Purpose of this Demo Shiny App is to apply the acquired learnings from the TABA class of CBA and demonstrte the UDPipe NLP workflow", align = "justify"),              
-                                 tags$li("The App uses UDPipe language Models, which can be downloaed from @:" , a(href="https://www.rdocumentation.org/packages/udpipe/versions/0.7/topics/udpipe_download_model","UDPipe Models") , align = "justify"),
+                                 tags$li("The Purpose of this Demo Shiny App is to apply the acquired learnings from the TABA class of CBA and demonstrate the UDPipe NLP workflow", align = "justify"),              
+                                 tags$li("The App uses UDPipe language Models, which can be downloaded from @:" , a(href="https://www.rdocumentation.org/packages/udpipe/versions/0.7/topics/udpipe_download_model","UDPipe Models") , align = "justify"),
                                  br(),
                                  br(),
                             
@@ -65,18 +65,20 @@ shinyUI(fluidPage(
                                  br(),
                                  tags$li("Please use the sample English text file, a Sample can be referred/downloaded from @:" , a(href="https://raw.githubusercontent.com/mailtoabhi15/UDPipe_Shiny_app/master/EXample_ENglish%20Text.txt","Sample English Text file"), align = "justify"),
                                  br(),
-                                 tags$li("You can referred/downloaded the English UDPipe Model from @:" , a(href="https://github.com/mailtoabhi15/UDPipe_Shiny_app/raw/master/english-ewt-ud-2.4-190531.udpipe","UDPipe English Model file"), align = "justify"),
+                                 tags$li("You can also, refer/download the English UDPipe Model from @:" , a(href="https://github.com/mailtoabhi15/UDPipe_Shiny_app/raw/master/english-ewt-ud-2.4-190531.udpipe","UDPipe English Model file"), align = "justify"),
                                  br(),
-                                 tags$li("For perfroming the Required Analysis on your document,Please follow the steps as below:",br(), 
-                                 p("  i) Click on Browse, on the control panel on the left and upload the Sample text file.Or you can use your own
-                                    text file document(e.g: scraped pages form wiki,news sites,journals etc. in '.txt' format"),
-                                 p("  ii) Click on Browse, on the control panel on the left and upload the UDPipe Model."), align = "justify"),
+                                 tags$li("For perfroming the Required Analysis on your document, Please follow the steps as below:",br(), 
+                                 p("  i) Click on 1st Browse Button, on the control panel on the left-side of this page and upload the Sample text file.Or you can use your own
+                                    text file document(e.g: scraped pages from Wiki, News sites,Journals etc. in '.txt' format"),
+                                 p("  ii)Again Click on the 2nd Browse Button, on the control panel and upload the UDPipe Model."), align = "justify"),
                                  
-                                 tags$li("Inorder to modify the inputs, u can change the parameters in left side-bar panel and Click Submit.", align = "Justify"),
+                                 tags$li("Inoorder to modify/choose the inputs, we can also change the parameters from the side-bar panel and Click Submit to get the new results/output", align = "Justify"),
                                  br(),
                                  tags$li("NOTE: For now We have used only English Model for the Demo, but on downaloding the UDPipe Model rest of the 52 languauges
                                          can also be demonstrated here, subject to usng there respective Sample text files", align = "justify"),br(),
-                                 tags$li("NOTE: Please also try the Borwser interface instead of R Interface, for better experience. ", align = "justify")
+                                 tags$li("NOTE: Please also try this app, from the Browser interface instead of R Interface for better experience. ", align = "justify"),
+                                 br(),
+                                 p("THANKS !!")
 
        
                         ),
