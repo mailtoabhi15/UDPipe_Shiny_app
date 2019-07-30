@@ -11,7 +11,7 @@ library(shiny)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
-
+options(shiny.maxRequestSize=30*1024^2)
     dataset <- reactive({
         if (is.null(input$rawtxtfile)) {return(NULL)}
         else {
